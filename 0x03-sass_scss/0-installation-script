@@ -1,0 +1,27 @@
+# Steps to install and set up SASS
+
+
+# Directory: 0x03-sass_scss
+# File: 0-installation-script
+
+#Install Node Version 20.16 
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.7/install.sh | bash
+
+# Exit the terminal using the exist command
+exit
+
+# Verify that nvm is installed
+command -v nvm
+
+# Install Node.js version 20.16 using nvm
+nvm install 20.16
+
+# Verify node and npm installation
+node -v
+npm -v
+
+# Install SASS version 3.7.4
+npm install sass -v 3.7.4
+
+# Verify SASS installation
+npx sass --version
